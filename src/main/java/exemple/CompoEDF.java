@@ -47,8 +47,9 @@ public class CompoEDF implements Animation{
 	        b.setBackground(Color.black);
 			b.sleep(750);
 		}
+		// on remet des valeurs normal pour les prochains effets
 		b.setBackground(Color.white);
-        b.setFont(new Font("SansSerif", Font.PLAIN, 15)); // on remet la police à l'origine pour ne pas impacter les autres effetes.
+        b.setFont(new Font("SansSerif", Font.PLAIN, 15)); 
 
 	}
 

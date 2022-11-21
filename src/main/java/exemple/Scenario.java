@@ -9,7 +9,6 @@ import bandeau.Bandeau;
 public class Scenario {
 
 	private Bandeau b;
-	private String m;
 	private HashMap<Animation, Integer> lesAnimations = new HashMap<>();
 
 	public Scenario(Bandeau b) {
