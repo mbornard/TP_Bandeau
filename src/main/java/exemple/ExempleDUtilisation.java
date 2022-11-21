@@ -18,9 +18,28 @@ public class ExempleDUtilisation {
         Color fore = monBandeau.getForeground();
 
         monBandeau.setMessage("Hello");
-        monBandeau.sleep(1000);
+        monBandeau.sleep(2000);
         monBandeau.setMessage("On va changer de police");
         monBandeau.sleep(1000);
+        
+        //test
+        monBandeau.setMessage("__ _____");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("L_ _____");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("L_ p____");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("Le pe___");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("Le pe_d__");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("Le pend_");
+        monBandeau.sleep(1000);
+        monBandeau.setMessage("Le pendu");
+        monBandeau.sleep(1000);
+        
+        
+        
         monBandeau.setMessage("Monospaced 15 Bold");
         monBandeau.setFont(new Font("Monospaced", Font.BOLD, 15));
         monBandeau.sleep(1000);
