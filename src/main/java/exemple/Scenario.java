@@ -14,7 +14,7 @@ public class Scenario {
 	public Scenario(Bandeau b) {
 		super();
 		this.b = b;
-		// this.m = m;
+		// this.m = m;, 
 	}
 
 	public void ajouterAnimation(Animation a, int nbRepet) {
